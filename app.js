@@ -15,10 +15,10 @@ setInterval(() => {
     }
         clock.innerHTML = `${(h < 10 ? '0' : '') + h} : ${(m < 10 ? '0' : '') + m} : ${(s < 10 ? '0' : '') + s}`;
 }, 1000);
-function refreshBtn() {
-    s = 0;
-    m = 0;
-    h = 0;
-    clock.innerHTML = '00 : 00 : 00';
+// function refreshBtn() {
+//     s = 0;
+//     m = 0;
+//     h = 0;
+//     clock.innerHTML = '00 : 00 : 00';
 
-}
+// }
